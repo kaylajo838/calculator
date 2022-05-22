@@ -1,0 +1,169 @@
+/* Containers */
+#main-container {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 800px;
+}
+
+#display {
+    background-color: white;
+    font-size: 60px;
+    height: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+    align-items: center;
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    gap: 10px;
+    margin: 10px;
+}
+
+#second-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    gap: 10px;
+    margin: 10px;
+}
+
+#third-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    gap: 10px;
+    margin: 10px;
+}
+
+#fourth-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    gap: 10px;
+    margin: 10px;
+}
+
+#fifth-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    gap: 10px;
+    margin: 10px;
+}
+
+
+
+/* Buttons */
+button {
+    border-radius: 100px;
+    flex-grow: 1;
+}
+
+#zero {
+    border-radius: 50px;
+    flex-grow: 2;
+}
+
+/* #clear {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#pos-neg {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#percent {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#divide {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#seven {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#eight {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#nine {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#multiply {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#four {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#five {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#six {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#subtract {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#one {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#two {
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
+#three {
+    flex-grow: 1;
+}
+
+#add {
+    flex-grow: 1;
+}
+
+#zero {
+    flex-grow: 2;
+}
+
+#decimal {
+    flex-grow: 1;
+}
+
+#equals {
+    flex-grow: 1;
+} */
