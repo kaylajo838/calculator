@@ -5,43 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
     <link rel="stylesheet" href="./style.css">
+    <!-- jQuery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Calculator</title>
 </head>
 
 <body>
 
     <div id="main-container">
-        <div id="display">0</div>
+        <div id="display">
+            <div id="main-display">
+
+            </div>
+
+            <div id="output">
+                <!-- <div class="previous-operand">123</div>
+                <div class="display-operator">+</div>
+                <div class="current-operand">456</div> -->
+            </div>
+        </div>
         <br>
         <div id="first-line">
             <button id="clear">C</button>
-            <button id="pos-neg"><sup>+</sup>/-</button>
-            <button id="percent">%</button>
-            <button id="divide">&#247;</button>
+            <button data-delete>Delete</button>
+            <button id="percent" class="operator">%</button>
+            <button id="divide" class="operator" value="/">&#247;</button>
         </div>
         <div id="second-line">
-            <button id="seven" value="7" class="num-btn">7</button>
-            <button id="eight" value="8" class="num-btn">8</button>
-            <button id="nine" value="9" class="num-btn">9</button>
-            <button id="multiply">x</button>
+            <button data-number value="7" class="num-btn" id="seven">7</button>
+            <button data-number value="8" class="num-btn" id="eight">8</button>
+            <button data-number value="9" class="num-btn" id="nine">9</button>
+            <button id="multiply" value="*" class="operator">x</button>
         </div>
         <div id="third-line">
-            <button id="four" value="4" class="num-btn">4</button>
-            <button id="five" value="5" class="num-btn">5</button>
-            <button id="six" value="6" class="num-btn">6</button>
-            <button id="subtract">-</button>
+            <button data-number value="4" class="num-btn" id="four">4</button>
+            <button data-number value="5" class="num-btn" id="five">5</button>
+            <button data-number value="6" class="num-btn" id="six">6</button>
+            <button id="subtract" value="-" class="operator">-</button>
         </div>
         <div id="fourth-line">
-            <button id="one" value="1" class="num-btn">1</button>
-            <button id="two" value="2" class="num-btn">2</button>
-            <button id="three" value="3" class="num-btn">3</button>
-            <button id="add">+</button>
+            <button data-number value="1" class="num-btn" id="one">1</button>
+            <button data-number value="2" class="num-btn" id="two">2</button>
+            <button data-number value="3" class="num-btn" id="three">3</button>
+            <button id="add" value="+" class="operator">+</button>
         </div>
         <div id="fifth-line">
-            <button id="zero" value="0" class="num-btn">0</button>
-            <button id="decimal">.</button>
-            <button id="equals">=</button>
+            <button data-number value="0" class="num-btn" id="zero">0</button>
+            <button data-number>.</button>
+            <button id="equals" class="operator">=</button>
         </div>
     </div>
 
