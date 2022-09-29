@@ -44,7 +44,15 @@
 }
 
 #clear {
-    flex: 3.5 1 0;
+    flex: 2 1 0;
+}
+
+#pos-neg {
+    flex: 1 1 0;
+}
+
+#divide {
+    flex: 1 1 0;
 }
 
 #second-line {
