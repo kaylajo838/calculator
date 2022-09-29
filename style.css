@@ -1,3 +1,7 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* Containers */
 #main-container {
     background-color: blue;
@@ -5,19 +9,29 @@
     flex-direction: column;
     width: 500px;
     height: 800px;
+    border-radius: 1.5em;
+    border: 2px solid black;
 }
 
 #display {
     background-color: white;
-    font-size: 60px;
+    font-size: 50px;
     height: 20px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     flex-grow: 1;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
     margin: 10px 10px 0 10px;
     padding: 5px;
     border-radius: 10px;
+    border: 2px solid black;
+}
+
+#output {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
 }
 
 #first-line {
@@ -27,6 +41,10 @@
     flex-grow: 1;
     gap: 10px;
     margin: 10px;
+}
+
+#clear {
+    flex: 3.5 1 0;
 }
 
 #second-line {
@@ -71,12 +89,21 @@
 button {
     border-radius: 100px;
     flex-grow: 1;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid black;
 }
 
-#zero {
+button:hover {
+    background-color: rgb(90, 219, 148);
+    transition: 0.2s ease-in-out;
+}
+
+
+/* #zero {
     border-radius: 50px;
     flex-grow: 2;
-}
+} */
 
 /* #clear {
     border-radius: 50%;
