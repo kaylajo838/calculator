@@ -4,7 +4,7 @@ This project was a challenge from The Odin Project. It was a huge chakllenge for
 Note: No mobile support at this time. In addition, I plan to come back later and apply more styling to the UI.
 
 ## Live Demo
-Preview: 
+Preview: https://kaylajo838.github.io/calculator/
 
 ## How to Use
 Use like a regular calculator. Press your numbers and your operation of choice, followed by the equals sign to get your answer.
